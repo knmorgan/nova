@@ -217,7 +217,7 @@ public class Engine
     {
 		try
 		{
-		    InputStream fontStream = getClass().getClassLoader().getResourceAsStream("Straightline.ttf");
+		    InputStream fontStream = getClass().getClassLoader().getResourceAsStream("lib/Straightline.ttf");
 		    Font temp = Font.createFont(Font.TRUETYPE_FONT, fontStream);
 		    font = temp.deriveFont(35f);
 		}
@@ -234,7 +234,7 @@ public class Engine
     {
 		try
 		{
-		    lifeHeart = ImageIO.read(getClass().getClassLoader().getResource("lifeheart.png"));
+		    lifeHeart = ImageIO.read(getClass().getClassLoader().getResource("lib/lifeheart.png"));
 		}
 		catch(Exception e)
 		{

@@ -39,7 +39,7 @@ public class MainMenuState extends MenuState
     {
 		try
 		{
-		    logo = ImageIO.read(getClass().getClassLoader().getResource("NovaLogo.png"));
+		    logo = ImageIO.read(getClass().getClassLoader().getResource("lib/NovaLogo.png"));
 		}
 		catch(Exception e)
 		{
